@@ -73,5 +73,3 @@ cc -Wall -Wextra -Werror main.c -L. -lft
 - The `man` pages for each libc function (`man 3 strlen`, `man 3 memmove`, etc.), which I used as the reference for the expected behavior
 - The 42 Norm
 - The Libft subject itself
-# 42-Libft-Version-19.3
-# 42-Libft-Version-19.3

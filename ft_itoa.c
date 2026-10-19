@@ -6,11 +6,11 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 14:10:02 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/18 14:44:21 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/19 19:37:56 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static size_t	ft_intlen(long nbr)
 {

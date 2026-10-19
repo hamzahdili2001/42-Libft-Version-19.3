@@ -6,14 +6,17 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 16:21:55 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/19 15:31:49 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/19 18:44:52 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stddef.h>
+# include <stdint.h>
 # include <stdlib.h>
+# include <unistd.h>
+
 typedef struct s_list
 {
 	void			*content;
@@ -46,6 +49,7 @@ char				*ft_strdup(const char *s);
 char				*ft_itoa(int n);
 char				**ft_split(char const *s, char c);
 void				ft_striteri(char *s, void (*f)(unsigned int, char *));
+char				*ft_strjoin(char const *s1, char const *s2);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putnbr_fd(int n, int fd);

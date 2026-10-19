@@ -6,9 +6,10 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 11:38:53 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/18 16:04:41 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/19 19:37:32 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 static size_t	w_count(const char *s, char c)
 {

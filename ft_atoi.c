@@ -6,11 +6,11 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 14:35:23 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/18 16:36:15 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/19 19:37:05 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
+#include "libft.h"
 
 static int	issign(unsigned char c)
 {

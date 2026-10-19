@@ -1,7 +1,8 @@
-NAME = libft.a
-CC = cc
-CFLAGS = -Werror -Wextra -Werror
-AR = ar rcs
+NAME	= libft.a
+CC		= cc
+CFLAGS	= -Wall -Wextra -Werror
+AR		= ar rcs
+RM		= rm -f
 
 SRC = ft_toupper.c \
 	  ft_tolower.c \
@@ -47,4 +48,22 @@ SRC = ft_toupper.c \
 	  ft_bzero.c \
 	  ft_atoi.c
 
+OBJ = $(SRC:.c=.o)
 
+all: $(NAME)
+
+$(NAME): $(OBJ)
+	$(AR) $(NAME) $(OBJ)
+
+%.o: %.c libft.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	$(RM) $(OBJ)
+
+fclean:
+	$(RM) $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re

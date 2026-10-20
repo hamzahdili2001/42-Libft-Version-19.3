@@ -6,7 +6,7 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 09:35:18 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/19 09:35:18 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/20 10:11:20 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	if (!lst)
+	if (!lst || !del)
 		return ;
-	if (del)
+	if (lst->content)
 		del(lst->content);
 	free(lst);
 }

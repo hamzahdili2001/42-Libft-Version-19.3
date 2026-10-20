@@ -6,7 +6,7 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 09:08:32 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/19 15:33:34 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/20 09:47:38 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,4 @@ char	*ft_strdup(const char *s)
 		return (NULL);
 	ft_strlcpy(dup, s, slen + 1);
 	return (dup);
-}
-
-int	main(void)
-{
-	printf("%s\n", ft_strdup(NULL));
-	return (0);
 }

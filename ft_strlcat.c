@@ -33,18 +33,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[dlen + i] = '\0';
 	return (dlen + slen);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(void)
-{
-	char	mem[128] = "hello ";
-	char	mem1[128] = "hello ";
-
-	ft_strlcat(mem, mem, 128);
-	printf("FT: %s\n", mem);
-	strlcat(mem1, mem1, 128);
-	printf("OG: %s\n", mem1);
-}
-*/

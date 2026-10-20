@@ -6,7 +6,7 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 12:05:09 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/19 19:34:35 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/20 09:14:41 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strrchr(char const *s, int c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] == (unsigned char)c)
+		if ((unsigned char)s[i] == (unsigned char)c)
 			ptr = &s[i];
 		i++;
 	}

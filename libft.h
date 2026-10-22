@@ -6,12 +6,13 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 16:21:55 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/22 10:36:49 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/22 10:49:09 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# include <fcntl.h>
 # include <stddef.h>
 # include <stdint.h>
 # include <stdlib.h>

@@ -6,7 +6,7 @@
 /*   By: hhdili <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 16:12:12 by hhdili            #+#    #+#             */
-/*   Updated: 2026/10/14 16:16:03 by hhdili           ###   ########.fr       */
+/*   Updated: 2026/10/22 10:49:33 by hhdili           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 	c = n % 10 + '0';
 	ft_putchar_fd(c, fd);
 }
-
-/*
-int	main(void)
-{
-	int	n;
-
-	n = -250;
-	ft_putnbr_fd(n, 1);
-	return (0);
-}
-*/
